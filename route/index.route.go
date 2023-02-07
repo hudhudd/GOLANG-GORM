@@ -11,6 +11,7 @@ import (
 
 func RouteInit(r *fiber.App) {
 	r.Static("/public", config.ProjectRootPath+"/public/asset")
+	r.Static("/public", "./public")
 
 	r.Post("/login", handler.LoginHandler)
 	r.Get("/user", middleware.Auth, handler.UserHandlerGetAll)
