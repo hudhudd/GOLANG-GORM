@@ -1,6 +1,8 @@
 # GOLANG-GORM
 Training Project about Golang including:
 - CRUD
+- Go Fiber
+- GORM
 - MySQL Migraiton
 - Middleware
 - JWT
